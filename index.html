@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Quiz Website</h1>
+  </header>
+  <main>
+    <section class="quiz">
+      <h2>Quiz Title</h2>
+      <p>Question 1: What is the capital of France?</p>
+      <ul>
+        <li><input type="radio" name="question1" value="a"> a) Paris</li>
+        <li><input type="radio" name="question1" value="b"> b) London</li>
+        <li><input type="radio" name="question1" value="c"> c) Rome</li>
+      </ul>
+      <p>Question 2: What is the capital of india?</p>
+      <ul>
+        <li><input type="radio" name="question2" value="a"> a)  New Delhi</li>
+        <li><input type="radio" name="question2" value="b"> b) Kolkata</li>
+        <li><input type="radio" name="question2" value="c"> c) Mumbai</li>
+      </ul>
+      <p>Question 3: who is the prime minister of india?</p>
+      <ul>
+        <li><input type="radio" name="question3" value="a"> a) Narendra Modi</li>
+        <li><input type="radio" name="question3" value="b"> b) Rajiv Gandhi</li>
+        <li><input type="radio" name="question3" value="c"> c) Amit Shah</li>
+      </ul>
+      <p>Question 4: What is the capital of madhya pradesh?</p>
+      <ul>
+        <li><input type="radio" name="question4" value="a"> a) Indore</li>
+        <li><input type="radio" name="question4" value="b"> b) Bhopal</li>
+        <li><input type="radio" name="question4" value="c"> c) Jabalpur</li>
+      </ul>
+      <p>Question 5: Where is the india's IT Hub ?</p>
+      <ul>
+        <li><input type="radio" name="question5" value="a"> a) Chennai</li>
+        <li><input type="radio" name="question5" value="b"> b) Pune</li>
+        <li><input type="radio" name="question5" value="c"> c) Banglore</li>
+      </ul>
+      <p>Question 6: Where is the biggest DB Mall situated ?</p>
+      <ul>
+        <li><input type="radio" name="question6" value="a"> a) Chennai</li>
+        <li><input type="radio" name="question6" value="b"> b) Bhopal</li>
+        <li><input type="radio" name="question6" value="c"> c) Mumbai</li>
+      </ul>
+      <p>Question 7: What is the GDP of india?</p>
+      <ul>
+        <li><input type="radio" name="question7" value="a"> a) 2 Trillion dollor</li>
+        <li><input type="radio" name="question7" value="b"> b) 5 Trillion dollor</li>
+        <li><input type="radio" name="question7" value="c"> c) 3 Trillion dollor</li>
+      </ul>
+      <p>Question 8: Where is the Phenonix capital mall situated?</p>
+      <ul>
+        <li><input type="radio" name="question8" value="a"> a) Indore</li>
+        <li><input type="radio" name="question8" value="b"> b) Banglore</li>
+        <li><input type="radio" name="question8" value="c"> c) Jaipur</li>
+      </ul>
+      <p>Question 9: What is the GDP?</p>
+      <ul>
+        <li><input type="radio" name="question9" value="a"> a) Gross Domestic price </li>
+        <li><input type="radio" name="question9" value="b"> b) Gross Domestic Product</li>
+        <li><input type="radio" name="question9" value="c"> c) Both</li>
+      </ul>
+      <p>Question 10: Who made the tajmahal?</p>
+      <ul>
+        <li><input type="radio" name="question10" value="a"> a) Sahjaha</li>
+        <li><input type="radio" name="question10" value="b"> b) Workers</li>
+        <li><input type="radio" name="question10" value="c"> c) None of the above</li>
+      </ul>
+      <button onclick="submitQuiz()">Submit</button>
+    </section>
+    <section id="result" style="display: none;">
+      <h2>Quiz Result</h2>
+      <p id="score"></p>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2023 Quiz Website. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
